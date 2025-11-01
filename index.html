@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Școala Primară</title>
+    <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #6CBF47; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    .hero { padding: 40px; text-align: center; background: #f4f4f4; }
+    .hero img { max-width: 100%; height: auto; border-radius: 10px; margin-top: 20px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .team, .schedule, .gallery, .events { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; text-align: center; }
+    .team img, .gallery img, .events img { width: 100%; border-radius: 10px; }
+    .contact-form { display: grid; gap: 10px; max-width: 500px; margin: auto; }
+    footer { background: #333; color: #fff; text-align: center; padding: 20px; }
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>Școala Primară</h1>
+      <nav>
+        <a href="#about">Despre Noi</a>
+        <a href="#team">Echipa</a>
+        <a href="#schedule">Orar</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#events">Evenimente</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="about">
+      <h2>Bine ați venit!</h2>
+      <p>O școală unde educația și dezvoltarea copiilor sunt pe primul loc.</p>
+      <img src="images/class.jpg" alt="Clasă de elevi">
+    </section>
+
+    <section id="team">
+      <h2>Echipa Noastră</h2>
+      <div class="team">
+        <div>
+          <img src="images/teacher_female1.jpg" alt="Profesor">
+          <h3>Jane Doe</h3>
+          <p>Învățătoare</p>
+        </div>
+        <div>
+          <img src="images/teacher_male1.jpg" alt="Profesor">
+          <h3>John Doe</h3>
+          <p>Profesor de matematică</p>
+        </div>
+        <div>
+          <img src="images/teacher_female2.jpg" alt="Profesor">
+          <h3>Mary Doe</h3>
+          <p>Profesor de limba română</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule">
+
+      <h2>Orar</h2>
+      <img src="images/orar3.jpg" alt="Orar" class="img_center" width="1000" height="300">
+
+      <div class="schedule">
+        <div>
+          <h3>Luni</h3>
+          <p>08:00 - 10:00 Matematică</p>
+          <p>10:15 - 12:00 Limba Română</p>
+        </div>
+        <div>
+          <h3>Marți</h3>
+          <p>08:00 - 10:00 Științe</p>
+          <p>10:15 - 12:00 Educație Fizică</p>
+        </div>
+        <div>
+          <h3>Miercuri</h3>
+          <p>08:00 - 10:00 Limba Română</p>
+          <p>10:15 - 12:00 Muzică</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="gallery">
+      <h2>Galerie Foto</h2>
+      <div class="gallery">
+        <img src="images/laore2.jpg" Sala de clasa">
+        <img src="images/laore.jpg" alt="Școală">
+        <img src="images/incurte.jpg" alt="Copii învățând">
+        <img src="images/lamasa.jpg" alt="Educație">
+      </div>
+    </section>
+
+    <section id="events">
+      <h2>Evenimente</h2>
+      <div class="events">
+        <div>
+          <img src="images/event1.jpg" alt="Eveniment școlar">
+          <h3>Ziua Porților Deschise</h3>
+          <p>Vizitați școala noastră și descoperiți atmosfera caldă și
+            prietenoasă.</p>
+        </div>
+        <div>
+          <img src="images/xmasev.jpg" alt="Copii la eveniment">
+          <h3>Serbare de Crăciun</h3>
+          <p>Elevii noștri pregătesc un spectacol festiv pentru părinți și
+            prieteni.</p>
+        </div>
+        <div>
+          <img src="images/event4.jpg" alt="Atelier copii">
+          <h3>Atelier de Creație</h3>
+          <p>Activități interactive pentru dezvoltarea creativității
+            copiilor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Nume" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mesaj" rows="5" required></textarea>
+        <button type="submit">Trimite</button>
+      </form>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Școala Primară. Toate drepturile rezervate.</p>
+    </footer>
+  </body>
+</html>

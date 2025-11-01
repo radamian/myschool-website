@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>README – Kindergarten Webserver</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      line-height: 1.6;
+      background: #f9f9f9;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>📘 Kindergarten Webserver</h1>
+  <p>This project is a simple Express.js web server for serving a kindergarten website.</p>
+
+  <h2>📂 Project Structure</h2>
+  <pre>
+project-root/
+│
+├── public/               
+│   ├── index.html         # Homepage
+│   ├── css/               # Stylesheets
+│   │   └── style.css
+│   ├── js/                # Client-side JavaScript
+│   │   └── script.js
+│   └── images/            # Images (logos, photos, etc.)
+│       └── kindergarten.png
+│
+├── server.js              # Express web server
+├── package.json           # Project metadata & dependencies
+└── README.html            # This documentation
+  </pre>
+
+  <h2>🚀 How to Start the Server</h2>
+  <ol>
+    <li>Install dependencies:
+      <pre>npm install</pre>
+    
+    <li>Start the server:
+      go to the project root  path e.g C:\Users\raluc\OneDrive\Dev\EuroEd\myschool-website> 
+      <pre> cd .\myschool-website\</pre>
+      <pre>npm start</pre>
+
+
+
+    </li>
+    <li>Open in your browser:
+      <pre>http://localhost:3000</pre>
+      
+    </li>
+  </ol>
+
+  <h2>💡 Notes</h2>
+  <ul>
+    <li>The server uses <code>public/</code> as the static directory.</li>
+    <li>Modify <code>public/index.html</code> to update the homepage.</li>
+    <li>Assets are organized into <code>css/</code>, <code>js/</code>, and <code>images/</code> for clarity.</li>
+    <li>You can use <code>nodemon</code> for automatic restarts during development:
+      <pre>npm install --save-dev nodemon</pre>
+      Then run:
+      <pre>npx nodemon server.js</pre>
+    </li>
+  </ul>
+</body>
+</html>
